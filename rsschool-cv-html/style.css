@@ -1,0 +1,202 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #3a3a3a;
+}
+
+*, *::before, ::after {
+   box-sizing: border-box; 
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+/* header */
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    height: 80px;
+    background-color: black;
+  }
+.nav-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0 20px;
+    line-height: 50px; 
+    text-decoration: none;  
+    color: #5096F1;
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+   color: #06397c; 
+}
+
+/* main */
+
+.resume-photo {
+    margin: 30px 100px 70px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: 4px solid rgba(80, 150, 241, 0.25);
+    box-shadow: inset 5px 5px 15px rgba(80, 150, 241, 0.1);
+    filter: drop-shadow(0px 15px 25px rgba(80, 150, 241, 0.1));
+}
+
+.resume {
+    display: flex;
+}
+
+.resume-left {
+    width: 500px;
+    height: auto;
+    background: #202020;
+}
+
+.resume-items .title {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5096F1;
+    padding: 5px 25px;
+}
+
+.title::after {
+    
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 200px;
+    height: 0px;
+    border: 1px solid #5096F1;
+    border-radius: 2px;   
+}
+
+.resume-left-data {
+    padding: 10px 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #FFFFFF; 
+}
+
+.contacts {
+    margin-bottom: 100px;
+}
+
+.education {
+    margin-bottom: 100px;
+}
+
+.languages {
+    margin-bottom: 100px;
+}
+
+.resume-right {
+    width: 640px;
+    height: auto;
+    background: #101010;
+}
+
+.name {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.position {
+    padding-top: 10px;
+    padding-bottom: 255px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.resume-right-item .title {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5096F1;
+    padding: 5px 25px;
+}
+
+.resume-right-data {
+    padding: 10px 25px 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #FFFFFF; 
+}
+
+/* footer */
+.footer-nav {
+    height: 80px;
+    background-color: rgb(19, 18, 18);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.git-link {
+    width: 70px;
+    height: 70px;
+    transition: all 0.5s; 
+}
+
+.git-link:hover {
+    scale: 1.1;
+}
+
+.footer-year {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.rss-logo {
+    width: 80px;
+    height: 80px;
+    transition: all 0.5s;
+}
+
+.rss-logo:hover {
+    scale: 1.1;
+}
